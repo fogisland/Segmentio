@@ -11,7 +11,7 @@ import QuartzCore
 
 public typealias SegmentioSelectionCallback = ((segmentio: Segmentio, selectedSegmentioIndex: Int) -> Void)
 
-private let animationDuration: CFTimeInterval = 0.3
+private let animationDuration: CFTimeInterval = 0.2
 
 public class Segmentio: UIView {
     
